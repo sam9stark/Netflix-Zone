@@ -1,0 +1,674 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+.main_bg {
+    height: 95vh;
+    width: 100%;
+    background-image: url(/images/bg_img.jpg);
+    background-size: max(1200px 100vh);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+
+}
+
+.main_bg .box {
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 85vw;
+    margin: auto;
+
+
+}
+
+.logo {
+    position: relative;
+    z-index: 10;
+    margin-top: 25px;
+    width: 150px;
+}
+
+.nav-button {
+    position: relative;
+    z-index: 10;
+}
+
+.search {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+select {
+    /* height: 0;
+    width: 0; */
+    position: relative;
+    z-index: 10;
+    padding: 7px 20px;
+    background-color: rgba(255, 255, 255, 0.066);
+    font-size: 16px;
+    color: aliceblue;
+    border-radius: 5px;
+
+}
+
+.font {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    padding: 30px;
+}
+
+.para1 {
+    font-family: sans-serif;
+    font-size: 46px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.para2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.para3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(33, 32, 32);
+}
+
+
+.btn {
+    /* padding: 4px 16px; */
+    font-weight: bold;
+    color: white;
+    /* p:6px 36px */
+
+}
+
+
+.btn-red {
+    padding: 12px 24px;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.red-btn {
+    padding: 7px 10px;
+    background-color: rgb(201, 21, 21);
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+input {
+    padding: 14px 170px 14px 14px;
+    font-size: 15px;
+    background-color: rgba(23, 23, 23, .3);
+    border-radius: 5px;
+    border: .8px solid rgba(238, 234, 234, 0.527);
+    color: white;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+.section {
+    max-width: 75vw;
+    height: 75vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    text-align: center;
+}
+
+.part1 {
+    position: relative;
+}
+
+.section img {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    top: 0px;
+}
+
+.first-section video {
+    width: 77%;
+    overflow: hidden;
+    position: absolute;
+    left: 13.5%;
+}
+
+.third-section video {
+    width: 62%;
+    position: absolute;
+    bottom: 47.6%;
+    left: 18%;
+    overflow: hidden;
+}
+
+
+.faq-section {
+    max-width: 75vw;
+    height: 110vh;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
+
+.questions {
+    height: 33px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    margin: 10px;
+    background-color: rgb(32, 32, 32);
+}
+
+.faq-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-end {
+    margin: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq-end p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.last-section {
+    height: 50vh;
+    max-width: 75vw;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 80px 25px;
+    color: rgba(255, 255, 255, 0.727);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.contact {
+    height: 20px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+.sub-list span,
+span>a {
+    color: rgba(255, 255, 255, 0.727);
+}
+
+
+
+@media screen and (min-width:1624px) {
+
+    .main_bg {
+        height: 95vh;
+        width: 98.8vw;
+        background-size: cover;
+    }
+
+    .main_bg .box {
+        height: 95vh;
+        width: 98.8vw;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    .selectup {
+        height: 0;
+        width: 0;
+    }
+}
+
+@media screen and (max-width:624px) {
+
+    .main_bg {
+        height: 95vh;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .main_bg .box {
+        height: 95vh;
+        width: 100%;
+    }
+
+    .logo img {
+        width: 90px;
+    }
+
+
+    .mail {
+        flex-wrap: wrap;
+    }
+
+    .section {
+        flex-wrap: wrap;
+        text-align: center;
+        height: 65vh;
+        max-width: 90vw;
+    }
+
+    .faq-section {
+        margin-top: 15px;
+        height: 105vh;
+    }
+
+    .faq-section .para1 {
+        font-size: 35px;
+    }
+
+    .questions {
+        height: 25px;
+        padding: 20px 5px;
+        margin-left: 0;
+    }
+
+    .faq-box {
+        padding: 5px;
+    }
+
+    .faq-box .para2 {
+        font-size: 18px;
+    }
+
+    .faq-end {
+        margin: 10px;
+        padding: 10px;
+
+    }
+    
+    .faq-end p {
+        font-size: 18px;
+    }
+
+    .mail input {
+        padding: 14px 100px 14px 14px;
+    }
+
+    .details {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main_bg {
+        height: 70vh;
+        width: 100%;
+
+    }
+
+    .main_bg .box {
+        height: 70vh;
+        width: 100%;
+    }
+
+    .font {
+        height: 60vh;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .para1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+
+    }
+
+    .para2 {
+        font-weight: 100px;
+        margin-bottom: 20px;
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media screen and (max-width:350px) {
+body {
+    background-color: skyblue;
+};
+    .main_bg {
+        height: 70vh;
+        width: 100%;
+
+    }
+
+    .main_bg .box {
+        height: 70vh;
+        width: 100%;
+    }
+
+    
+
+
+
+    body {
+        background-color: skyblue;
+    }
+
+
+
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: auto;
+
+
+}
+
+.logo {
+    width: 10px;
+    position: relative;
+    z-index: 10;
+    margin-top: 25px;
+}
+
+.nav-button {
+    position: relative;
+    z-index: 10;
+}
+
+.search {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+select {
+    position: relative;
+    z-index: 10;
+    padding: 7px 20px;
+    background-color: rgba(255, 255, 255, 0.066);
+    font-size: 16px;
+    color: aliceblue;
+    border-radius: 5px;
+
+}
+
+
+.para2 {
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.para3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+    .font {
+        height: 60vh;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .para1 {
+        font-size: 30px;
+    margin-bottom: 10px;
+
+    }
+
+    .para2 {
+         font-weight: 100px; 
+        margin-bottom: 20px;
+           font-size: 19px;
+    font-weight: 400;
+    }
+
+    .mail {
+        flex-direction: column;
+        row-gap: 20px;
+
+    }
+
+    .section {
+        max-width: 85vw;
+        height: 60vh;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .logo {
+        position: relative;
+        z-index: 10;
+        margin-top: 25px;
+    } 
+
+    input {
+        padding: 14px 10px 14px 14px;
+    }
+
+    .first-section {
+        max-width: 85vw;
+        height: 60vh;
+    }
+
+    .first-section .part1 {
+        max-width: 85vw;
+        margin-top: 50px;
+    }
+
+    .first-section .part2 {
+        max-width: 85vw;
+    }
+
+    .second-section {
+        max-width: 85vw;
+        height: 60vh;
+    }
+
+    .second-section .part1 {
+        max-width: 85vw;
+        margin-top: 50px;
+    }
+
+    .second-section .part2 {
+        max-width: 85vw;
+    }
+
+
+    .third-section {
+        max-width: 85vw;
+        height: 60vh;
+    }
+
+    .third-section .part1 {
+        max-width: 85vw;
+        margin-top: 50px;
+    }
+
+    .third-section .part2 {
+        max-width: 85vw;
+    }
+
+
+
+    .fourth-section {
+        max-width: 85vw;
+        height: 60vh;
+    }
+
+    .fourth-section .part1 {
+        max-width: 85vw;
+        margin-top: 50px;
+    }
+
+    .fourth-section .part2 {
+        max-width: 85vw;
+    }
+
+    .faq-section {
+        max-width: 70vw;
+        height: 105vh;
+        margin-left: 7.5px;
+        margin-top: 25px;
+        padding: 10px;
+    }
+
+    .questions {
+        width: 110%;
+    }
+
+    .faq-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .btn-red {
+        padding: 12px 20px;
+    }
+
+    .faq-end {
+        margin: 25px 2px 0px 100px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .faq-end p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .last-section {
+        height: 50vh;
+        max-width: 75vw;
+        margin: auto;
+        padding: 80px 25px;
+
+        color: rgba(255, 255, 255, 0.727);
+        font-family: Arial, Helvetica, sans-serif;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .contact {
+        height: 20px;
+
+    }
+
+    .faq-section .para1 {
+        margin-left: 100px;
+    }
+
+    .details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+
+
+    }
+
+    .faq-end .para2 {
+        text-align: center;
+    }
+} */
