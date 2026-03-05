@@ -11,7 +11,7 @@ body {
 .main_bg {
     height: 95vh;
     width: 100%;
-    background-image: url(/images/bg_img.jpg);
+    background-image: url(images/bg_img.jpg);
     background-size: max(1200px 100vh);
     background-repeat: no-repeat;
     background-position: center center;
